@@ -1,0 +1,49 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ----------------------------
+# Virtual envs
+# ----------------------------
+.venv/
+venv/
+env/
+**/.venv/
+
+# ----------------------------
+# OS / editor
+# ----------------------------
+.DS_Store
+.vscode/
+.idea/
+
+# ----------------------------
+# Secrets
+# ----------------------------
+.env
+*.env
+
+# ----------------------------
+# Large ML artifacts (DO NOT COMMIT)
+# ----------------------------
+*.zip
+*.pt
+*.pkl
+*.keras
+
+# TensorFlow / SavedModel artifacts (optional but recommended)
+*.pb
+*.pbtxt
+fingerprint.pb
+variables.data-*
+variables.index
+
+# ----------------------------
+# Project-specific: keep models out of git
+# ----------------------------
+backend/models/**
+!backend/models/.gitkeep
